@@ -1,23 +1,21 @@
-@import "compass";
+
 
 .og-grid {
 	list-style: none;
 	text-align: center;
-	width: 100%;
+	@media screen and (orientation: landscape) {
+	    width: rem-calc(930);
+	  }
 }
 
 
 .og-grid {
-	// needs latest Compass, add '@import "compass"' to your scss
-	background-color: #00b7ea; // Old browsers
-	@include filter-gradient(#00b7ea, #00343f, vertical); // IE6-9
-	@include background-image(linear-gradient(top,  #00b7ea 0%,#009ec3 52%,#00343f 100%));
+	background-color: #fff; // Old browsers
 }
 
 
 .og-grid li {
 	display: inline-block;
-	padding: 0;
 }
 
 .og-grid li > a,
