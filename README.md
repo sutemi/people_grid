@@ -1,15 +1,20 @@
-# Foundation Compass Template
+# CODE SNIPPETS
+
+This is an integration of Zurb Foundation 5 and the expanding preview method from * [codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/)
+
+
+## Foundation Compass Template
 
 The easiest way to get started with Foundation + Compass.
 
-## Requirements
+### Requirements
 
   * Ruby 1.9+
   * [Node.js](http://nodejs.org)
   * [compass](http://compass-style.org/): `gem install compass`
   * [bower](http://bower.io): `npm install bower -g`
 
-## Quickstart
+### Quickstart
 
   * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
   * Run `bower install` to install the latest version of Foundation
@@ -20,7 +25,7 @@ Then when you're working on your project, just run the following command:
 compass watch
 ```
 
-## Upgrading
+### Upgrading
 
 If you'd like to upgrade to a newer version of Foundation down the road just run:
 
